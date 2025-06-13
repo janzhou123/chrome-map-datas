@@ -1,5 +1,7 @@
 # Google Maps 数据收集器
 
+[English Version](./README.en.md)
+
 基于 Next.js + TypeScript + React 开发的 Google Maps 数据收集工具，使用 SerpApi 的 Google Maps API 进行地图搜索和评论获取。
 
 ## 功能特性
@@ -48,7 +50,7 @@ yarn install
 项目已包含 `.env.local` 文件，其中配置了 SerpApi 的 API Key：
 
 ```env
-NEXT_PUBLIC_SERPAPI_KEY=bdc98e8a682bbbab5faf67e751e5ed8e29bd1e3e4301f3845129691e5f73acac
+NEXT_PUBLIC_SERPAPI_KEY=XXXXXXX
 NEXT_PUBLIC_API_BASE_URL=https://serpapi.com/search
 ```
 
@@ -138,24 +140,6 @@ chrome-map-datas/
 3. **网络要求**: 需要稳定的网络连接来访问 SerpApi 服务
 4. **浏览器兼容性**: 建议使用现代浏览器（Chrome、Firefox、Safari、Edge）
 
-## 原始需求
-
-1、技术要求
-   Nextjs
-   Typescript
-   React
-2、接口列表
-   google-maps-api：https://serpapi.com/google-maps-api
-   google-maps-reviews-api：https://serpapi.com/google-maps-reviews-api
-3、功能列表
-   1、根据输入的关键词和区域调用google-maps-api接口进行地图搜索，获得地图上的点
-   2、根据地图上的点的place_id调用google-maps-reviews-api接口获取该点的评论
-   3、导出所有记录
-4、页面列表
-   1、首页：输入关键词、区域、搜索、导出
-   2、地图点列表
-   3、关于地图点的所有评论，导出评论
-5、api key: bdc98e8a682bbbab5faf67e751e5ed8e29bd1e3e4301f3845129691e5f73acac
 
 ## 许可证
 
